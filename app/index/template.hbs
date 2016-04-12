@@ -1,0 +1,9 @@
+
+{{#each model as |image|}}
+<li>
+  <img src="{{image.url}}" alt="">
+  <p>{{image.caption}}</p>
+</li>
+{{/each}}
+
+{{outlet}}
