@@ -1,0 +1,38 @@
+<div class="header__container">
+  <div class="header">
+    <header class="top-nav">
+      <button class="btn-new">
+        {{#link-to "new"}}
+        {{fa-icon "plus-circle" class="icon-new"}}
+        {{/link-to}}
+      </button>
+    </header>
+  </div>
+</div>
+
+{{outlet}}
+
+<div class="main__container">
+  <div class="main-content__container">
+    <div class="items__container">
+      <div class="items">
+
+        {{#each model as |image|}}
+        <li class="image-items">
+          <img src="{{image.url}}" alt="" class="images">
+          <p class="caption">{{image.caption}}</p>
+        </li>
+        {{/each}}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer__container">
+  <footer class="footer">
+    <h4 class="footer-text">
+      Page provided with love by Anders, Boone, and John Adam
+    </h4>
+  </footer>
+</div>

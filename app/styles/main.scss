@@ -1,0 +1,36 @@
+.main-content__container {
+  background: $page-background;
+}
+
+.items__container {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  max-width: 80%;
+  margin: auto;
+  border: $gutter $font-color;
+  background: $content-background;
+  box-shadow: $box-shadow;
+}
+
+.items {
+  max-width: 80%;
+  margin: auto;
+}
+
+.image-items {
+  margin: 2rem 0;
+  background: $page-background;
+  box-shadow: $box-shadow;
+}
+
+.images {
+  width: 50rem;
+  max-width: 100%;
+}
+
+.caption {
+  margin-top: 0;
+  padding: $gutter;
+  color: $font-color;
+}
