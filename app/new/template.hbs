@@ -1,8 +1,8 @@
 <div class="content__container">
   <form class="content" {{action saveImage url caption on="submit"}}>
     <div class="content-inputs">
-      {{input type="text" value=url placeholder="image URL"}}
-      {{textarea value=caption placeholder="Image Caption"}}
+      {{input class="input-new" type="text" value=url placeholder="Image URL"}}
+      {{textarea class="input-new" value=caption placeholder="Image Caption"}}
     </div>
     <div class="content-buttons">
       {{#link-to 'index'}}
@@ -12,11 +12,11 @@
     </div>
   </form>
 
-  {{#each model as |image|}}
+  {{!-- {{#each model as |image|}}
   <li>
     <img src="{{image.url}}" alt="">
     <p>{{image.caption}}</p>
   </li>
-  {{/each}}
+  {{/each}} --}}
 
 </div>

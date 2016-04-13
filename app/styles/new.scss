@@ -1,0 +1,19 @@
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.content-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-new {
+  margin: 0.25rem;
+  padding: 0.5rem;
+}

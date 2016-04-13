@@ -2,8 +2,10 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.get(`store`).findAll(`image`);
-    this.set('url', ``);
-    this.set('cation', ``);
+    // return this.get(`store`).findAll(`image`);
+    return {
+      url: ``,
+      caption: ``,
+    };
   },
 });
