@@ -12,9 +12,19 @@
 
 {{outlet}}
 
-{{#each model as |image|}}
-<li>
-  <img src="{{image.url}}" alt="">
-  <p>{{image.caption}}</p>
-</li>
-{{/each}}
+<div class="main__container">
+  <div class="content__container">
+    <div class="items__container">
+      <div class="items">
+
+        {{#each model as |image|}}
+        <li>
+          <img src="{{image.url}}" alt="">
+          <p>{{image.caption}}</p>
+        </li>
+        {{/each}}
+
+      </div>
+    </div>
+  </div>
+</div>
