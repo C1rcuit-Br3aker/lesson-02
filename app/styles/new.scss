@@ -10,10 +10,27 @@
 .content-inputs {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95%;
 }
 
 .input-new {
   margin: 0.25rem;
   padding: 0.5rem;
+}
+
+.content-buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+  margin: 0.5rem;
+  text-align: right;
+}
+
+.form-buttons {
+  margin-left: 0.5rem;
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.2rem;
+  font-size: 0.8rem
+  color: $brand-white;
 }

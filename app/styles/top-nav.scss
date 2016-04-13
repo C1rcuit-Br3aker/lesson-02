@@ -1,5 +1,5 @@
 .header__container {
-  background: #496E99;
+  background: $brand-blue;
 }
 
 .top-nav {
@@ -10,6 +10,11 @@
 .btn-new {
   border: 0;
   background: $brand-blue;
+}
+
+.icon-new {
+  padding: 0.5rem 0;
   color: $button-blue;
-  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
 }

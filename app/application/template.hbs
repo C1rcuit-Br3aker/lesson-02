@@ -1,3 +1,15 @@
+<div class="header__container">
+  <div class="header">
+    <header class="top-nav">
+      <button class="btn-new">
+        {{#link-to "new"}}
+        {{fa-icon "plus-circle" class="icon-new"}}
+        {{/link-to}}
+      </button>
+    </header>
+  </div>
+</div>
+
 {{outlet}}
 
 {{#each model as |image|}}
