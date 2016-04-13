@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 60rem;
-  margin: auto;
+  margin: 2rem auto;
 }
 
 .content-inputs {
@@ -14,8 +14,9 @@
 }
 
 .input-new {
-  margin: 0.25rem;
+  margin: 0.5rem;
   padding: 0.5rem;
+  font-size: 1rem;
 }
 
 .content-buttons {
@@ -28,9 +29,18 @@
 
 .form-buttons {
   margin-left: 0.5rem;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   border: 0;
-  border-radius: 0.2rem;
-  font-size: 0.8rem
+  border-radius: 0.3rem;
   color: $brand-white;
+  font-size: 1rem;
+}
+
+.add-image {
+  background: $brand-green;
+}
+
+.add-image-icon {
+  font-size: 1rem;
+  vertical-align: middle;
 }
