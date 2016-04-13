@@ -13,14 +13,14 @@
 {{outlet}}
 
 <div class="main__container">
-  <div class="content__container">
+  <div class="main-content__container">
     <div class="items__container">
       <div class="items">
 
         {{#each model as |image|}}
-        <li>
-          <img src="{{image.url}}" alt="">
-          <p>{{image.caption}}</p>
+        <li class="image-items">
+          <img src="{{image.url}}" alt="" class="images">
+          <p class="caption">{{image.caption}}</p>
         </li>
         {{/each}}
 

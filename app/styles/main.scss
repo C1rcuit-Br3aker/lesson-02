@@ -1,0 +1,39 @@
+.main__container {
+
+}
+
+.main-content__container {
+  background: $page-background;
+}
+
+.items__container {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  max-width: 80%;
+  margin: auto;
+  border: 1px $font-color;
+  background: $content-background;
+}
+
+.items {
+  max-width: 80%;
+  margin: auto;
+}
+
+.image-items {
+  margin: 2rem 0;
+  background: $page-background;
+  box-shadow: 1px 1px 3px $font-color;
+}
+
+.images {
+  width: 50rem;
+  max-width: 100%;
+}
+
+.caption {
+  margin-top: 0;
+  padding: 1rem;
+  color: $font-color;
+}
