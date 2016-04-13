@@ -8,8 +8,9 @@
   width: 60rem;
   max-width: 80%;
   margin: auto;
-  border: 1px $font-color;
+  border: $gutter $font-color;
   background: $content-background;
+  box-shadow: $box-shadow;
 }
 
 .items {
@@ -20,7 +21,7 @@
 .image-items {
   margin: 2rem 0;
   background: $page-background;
-  box-shadow: 1px 1px 3px $font-color;
+  box-shadow: $box-shadow;
 }
 
 .images {
@@ -30,6 +31,6 @@
 
 .caption {
   margin-top: 0;
-  padding: 1rem;
+  padding: $gutter;
   color: $font-color;
 }
